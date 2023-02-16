@@ -2,7 +2,7 @@ html {
   /* height: auto;
   min-height: 100%;
   background-image: linear-gradient(90deg, rgb(0, 0, 0), rgb(17, 17, 17), rgb(0, 0, 0)); */
-  background-image: url(./background_01_edited_opacity_010_v2.jpg);
+  background-image: url(/pictures/background_01_edited_opacity_010_v2.jpg);
 
 }
 
@@ -56,7 +56,7 @@ nav.contenedor p > a:hover {
     text-decoration: underline
   }
 
-div.galeria_principal {
+div#galeria_principal {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -64,21 +64,21 @@ div.galeria_principal {
   /* border: 1px solid rebeccapurple; */
 }
 
-div.galeria_principal > img {
+div#galeria_principal > img {
   width: 80%;
  
 }
-div.galeria_principal > a {
+div#galeria_principal > a {
   margin: 10px;
   display:inline-block;
   
 }
 
-div.galeria_principal a > img {
+div#galeria_principal a > img {
   width: 600px;
   /* border: 1px solid red; */
 }
-div.galeria_principal  a > img:hover {
+div#galeria_principal  div> img:hover {
   opacity: 0.8;
   border: 5px solid rgba(245, 245, 245, 0.2);
   border-radius: 10px;
@@ -91,6 +91,9 @@ div.galeria_principal  a > img:hover {
 
   z-index: 17;
   
+}
+.miniaturas>img{
+  width: 650px;
 }
 
 .about {
@@ -191,7 +194,7 @@ div.edicion_02 >img {
 }
 div.edicion_02 >img:hover {
   display: flex;
-  width: 40%;
+  width: 40 %;
   position: absolute;
   z-index: 2; 
   
