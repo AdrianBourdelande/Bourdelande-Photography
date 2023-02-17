@@ -3,8 +3,8 @@ html {
   min-height: 100%;
   background-image: linear-gradient(90deg, rgb(0, 0, 0), rgb(17, 17, 17), rgb(0, 0, 0)); */
   background-image: url(/pictures/background_01_edited_opacity_010_v2.jpg);
-
 }
+
 
 .header{
   text-align: center;
@@ -145,99 +145,10 @@ footer {
   /* border: 1px solid red; */
   padding: 10px;
   background-color: rgb(27, 27, 27);
-  border-radius: 15px;
+  border-radius: 15px 15px 0px 0px;
   margin-top: 10px;
 }
 
-div.retouching {
-  width: 90%;
-  height: 1980px;
-  margin: auto;
-  /* border: 1px solid red; */
-  
-}
 
-div.edicion_01{
-  /* border: 1px solid yellow; */
-  width: 952px;
-  height: 634px;
-  margin:20px 372px;
-}
+  
 
-div.edicion_01 >img {
-  display: flex;
-  width: 50%;
-  position:absolute;  
-  z-index: 10;
-    
-}
-div.edicion_01 >img:hover {
-  display: flex;
-  width: 40%;
-  position: absolute;
-  z-index: 2;
-  
-  
-}
-div.edicion_02{
-  /* border: 1px solid yellow; */
-  width: 952px;
-  height: 634px;
-  margin:20px 372px;
-}
-div.edicion_02 >img {
-  display: flex;
-  width: 50%;
-  position:absolute;  
-  z-index: 10;
-    
-}
-div.edicion_02 >img:hover {
-  display: flex;
-  width: 40 %;
-  position: absolute;
-  z-index: 2; 
-  
-}
-div.edicion_03{
-  /* border: 1px solid yellow; */
-  width: 952px;
-  height: 634px;
-  margin: auto;
-  margin:20px 372px;
-}
-div.edicion_03 >img {
-  display: flex;
-  width: 50%;
-  position:absolute;  
-  z-index: 10;
-    
-}
-div.edicion_03 >img:hover {
-  display: flex;
-  width: 40%;
-  position: absolute;
-  z-index: 2; 
-  
-}
-div.edicion_04{
-  /* border: 1px solid yellow; */
-  width: 952px;
-  height: 634px;
-  margin: auto;
-  margin:20px 372px;
-}
-div.edicion_04 >img {
-  display: flex;
-  width: 50%;
-  position:absolute;  
-  z-index: 10;
-    
-}
-div.edicion_04 >img:hover {
-  display: flex;
-  width: 40%;
-  position: absolute;
-  z-index: 2; 
-  
-}

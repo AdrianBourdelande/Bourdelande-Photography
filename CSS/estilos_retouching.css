@@ -1,0 +1,37 @@
+
+main{    
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+}
+#edicion_01{
+  width: 80%;
+  margin-bottom: 1%; 
+}
+#edicion_01_original{
+  width: 100%;
+}
+#edicion_02{
+  width: 80%;
+  margin-bottom: 1%; 
+}
+#edicion_02_original{
+  width: 100%;
+}
+#edicion_03{
+  width: 80%;
+  margin-bottom: 1%; 
+}
+#edicion_03_original{
+  width: 100%;
+}#edicion_04{
+  width: 80%;
+  margin-bottom: 1%; 
+}
+#edicion_04_original{
+  width: 100%;
+}
+
+
+
