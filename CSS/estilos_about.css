@@ -1,0 +1,19 @@
+.about {
+    color: whitesmoke;
+    width: 70%;
+    margin-top: ;
+    margin: auto;
+    padding: 20px;
+    background-color: rgb(19, 19, 19);
+    border-radius: 15px;  
+}
+#contenedor_about{
+    display: flex;
+}
+#imagen_about{
+    width: 40%;
+}
+#contenedor_about>p{
+    font-size: 20px;
+    margin-left: 20px;
+}

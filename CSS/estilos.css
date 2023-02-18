@@ -5,7 +5,6 @@ html {
   background-image: url(/pictures/background_01_edited_opacity_010_v2.jpg);
 }
 
-
 .header{
   text-align: center;
   font-family: "Bauhaus Modern", sans-serif;
@@ -83,29 +82,27 @@ div#galeria_principal  div> img:hover {
   border: 5px solid rgba(245, 245, 245, 0.2);
   border-radius: 10px;
   transform: scale(1.10);
-  -webkit-transition: transform 1000ms;
-  -moz-transition: transform 1000ms;
-  -o-transition: transform 1000ms;
-  -ms-transition: transform 1000ms;
   transition: transform 1000ms; 
 
   z-index: 17;
   
 }
+.miniaturas{
+  display: flex;
+  
+}
 .miniaturas>img{
   width: 650px;
+  margin:20px;
+  
+}
+.miniaturas>p {
+  color:red;
+  
 }
 
-.about {
-  color: whitesmoke;
-  width: 600px;
-  height: 600px;
-  margin-left: 33%;
-  margin-top: 40px;
-  padding: 20px;
-  background-color: rgb(19, 19, 19);
-  border-radius: 15px;
-}
+
+
 /* Estilos para el formulario de la pagina de contacto */
 .formulario {
   color: whitesmoke;
