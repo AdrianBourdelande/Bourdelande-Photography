@@ -15,7 +15,7 @@ html {
   top: 0;
   left: 0;
   border: 2px solid black;
-  z-index: 20; 
+  z-index: 2; 
 }
 
 h1{
@@ -41,7 +41,7 @@ nav.contenedor {
   height: 60px;
   display: flex;
   justify-content: center;
-  z-index: 19;
+  z-index: 1;
 }
 
 nav.contenedor p > a {
