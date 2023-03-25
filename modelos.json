@@ -2,47 +2,44 @@
 
 {
     "modelos": [{
-                    "marca": "Lotus",
-                    "modelo": "Esprit",
-                    "foto1" : "/pictures/WEB_Lotus_Esprit_01.jpg",
-                    "foto2" : "/pictures/WEB_Lotus_Esprit_02.jpg",
-                    "foto3" : "/pictures/WEB_Lotus_Esprit_03.jpg",
-                    "foto4" : "/pictures/WEB_Lotus_Esprit_04.jpg"
-                },{
-                    "marca": "Lotus",
-                    "modelo": "Esprit",
-                    "foto1" : "/pictures/WEB_Lotus_Esprit_01.jpg",
-                    "foto2" : "/pictures/WEB_Lotus_Esprit_02.jpg",
-                    "foto3" : "/pictures/WEB_Lotus_Esprit_03.jpg",
-                    "foto4" : "/pictures/WEB_Lotus_Esprit_04.jpg"
-                },{
-                    "marca": "Lotus",
-                    "modelo": "Esprit",
-                    "foto1" : "/pictures/WEB_Lotus_Esprit_01.jpg",
-                    "foto2" : "/pictures/WEB_Lotus_Esprit_02.jpg",
-                    "foto3" : "/pictures/WEB_Lotus_Esprit_03.jpg",
-                    "foto4" : "/pictures/WEB_Lotus_Esprit_04.jpg"
-                },{
-                    "marca": "Lamborghini",
-                    "modelo": "Huracan",
-                    "foto1" : "/pictures/WEB_Lamborghini_Huracan_01.jpg",
-                    "foto2" : "/pictures/WEB_Lamborghini_Huracan_02.jpg",
-                    "foto3" : "/pictures/WEB_Lamborghini_Huracan_03.jpg"
-                },{
-                    "marca": "Lotus",
-                    "modelo": "Esprit",
-                    "foto1" : "/pictures/WEB_Lotus_Esprit_01.jpg",
-                    "foto2" : "/pictures/WEB_Lotus_Esprit_02.jpg",
-                    "foto3" : "/pictures/WEB_Lotus_Esprit_03.jpg",
-                    "foto4" : "/pictures/WEB_Lotus_Esprit_04.jpg"
-                },{
-                    "marca": "Lotus",
-                    "modelo": "Esprit",
-                    "foto1" : "/pictures/WEB_Lotus_Esprit_01.jpg",
-                    "foto2" : "/pictures/WEB_Lotus_Esprit_02.jpg",
-                    "foto3" : "/pictures/WEB_Lotus_Esprit_03.jpg",
-                    "foto4" : "/pictures/WEB_Lotus_Esprit_04.jpg"
-                }
-
-    ]
+        "marca": "Lotus",
+        "modelo": "Esprit",
+        "foto1" : "/pictures/WEB_Lotus_Esprit_01.jpg",
+        "foto2" : "/pictures/WEB_Lotus_Esprit_02.jpg",
+        "foto3" : "/pictures/WEB_Lotus_Esprit_03.jpg",
+        "foto4" : "/pictures/WEB_Lotus_Esprit_04.jpg"
+    },{
+        "marca": "Caterham",
+        "modelo": "S3",
+        "foto1" : "/pictures/WEB_Caterham_S3_black_gold_01.jpg",
+        "foto2" : "/pictures/WEB_Caterham_S3_black_gold_02.jpg",
+        "foto3" : "/pictures/WEB_Caterham_S3_black_gold_03.jpg"
+    },{
+        "marca": "Mercedes",
+        "modelo": "C63 S AMG",
+        "foto1" : "/pictures/WEB_AMG_C63_S_01.jpg",
+        "foto2" : "/pictures/WEB_AMG_C63_S_02.jpg"
+    },{
+        "marca": "Lamborghini",
+        "modelo": "Huracan",
+        "foto1" : "/pictures/WEB_Lamborghini_Huracan_01.jpg",
+        "foto2" : "/pictures/WEB_Lamborghini_Huracan_02.jpg",
+        "foto3" : "/pictures/WEB_Lamborghini_Huracan_03.jpg",
+        "foto4" : "/pictures/WEB_Lamborghini_Huracan_04.jpg"
+    },{
+        "marca": "Lotus",
+        "modelo": "Esprit",
+        "foto1" : "/pictures/WEB_Lotus_Esprit_01.jpg",
+        "foto2" : "/pictures/WEB_Lotus_Esprit_02.jpg",
+        "foto3" : "/pictures/WEB_Lotus_Esprit_03.jpg",
+        "foto4" : "/pictures/WEB_Lotus_Esprit_04.jpg"
+    },{
+        "marca": "Volvo",
+        "modelo": "P1800",
+        "foto1" : "/pictures/WEB_Volvo_P1800_01.jpg",
+        "foto2" : "/pictures/WEB_Volvo_P1800_02.jpg",
+        "foto3" : "/pictures/WEB_Volvo_P1800_03.jpg",
+        "foto4" : "/pictures/WEB_Volvo_P1800_04.jpg",
+        "foto5" : "/pictures/WEB_Volvo_P1800_05.jpg"
+    }]
 }
