@@ -1,44 +1,30 @@
 "use strict"
-window.addEventListener("load", function(){
-   
-    
-    //Se guardan los elemento IMGs en una variables correspondientes 
-    var edicion_01_original = document.querySelector("#edicion_01_original");
-    var edicion_02_original = document.querySelector("#edicion_02_original");
-    var edicion_03_original = document.querySelector("#edicion_03_original");
-    var edicion_04_original = document.querySelector("#edicion_04_original");
-    //Se ponen las funciones onmouseover y onmouseout para cada imagen
-    edicion_01_original.onmouseover = function(){
-        edicion_01_original.src="/pictures/WEB_retouching_IMG_0346_edited.jpg";
-    };
-    edicion_01_original.onmouseout = function(){
-        edicion_01_original.src="/pictures/WEB_retouching_IMG_0346_original.jpg";
-    };
+//Bloque de codigo para la primera imagen
+const init = () => {
+    const div = document.getElementById("edicion_01");
+    const base = document.getElementById("edicion_01_editada");
+    const overlay = document.getElementById("edicion_01_original");
+    div.addEventListener("mousemove", function(event) {
+        const rect = div.getBoundingClientRect();
+         overlay.style.height = `${base.height}px`;
+        if (event && event.clientX){
+            overlay.style.width = `${event.clientX-rect.left}px`;
+        }
+    });        
+};     
+window.addEventListener("load", init, { once: true });
 
-    edicion_02_original.onmouseover = function(){
-        edicion_02_original.src="/pictures/WEB_retouching_IMG_0465_edited.jpg";
-    };
-    edicion_02_original.onmouseout = function(){
-        edicion_02_original.src="/pictures/WEB_retouching_IMG_0465_original.jpg";
-    };
-
-    edicion_03_original.onmouseover = function(){
-        edicion_03_original.src="/pictures/WE_retouching_Caterham_485_02_edited.jpg";
-    };
-    edicion_03_original.onmouseout = function(){
-        edicion_03_original.src="/pictures/WE_retouching_Caterham_485_02_original.jpg";
-    };
-
-    edicion_04_original.onmouseover = function(){
-        edicion_04_original.src="/pictures/WEB_retouching_Caterham_485_01_edited.jpg";
-    };
-    edicion_04_original.onmouseout = function(){
-        edicion_04_original.src="/pictures/WEB_retouching_Caterham_485_01_original.jpg";
-    };
-
-    
-
-
-
-    
-})
+//Bloque de codigo para la segunda imagen
+const init2 = () => {
+    const div2 = document.getElementById("edicion_02");
+    const base2 = document.getElementById("edicion_02_editada");
+    const overlay2 = document.getElementById("edicion_02_original");
+    div2.addEventListener("mousemove", function(event) {
+        const rect = div2.getBoundingClientRect();
+        overlay2.style.height = `${base2.height}px`;
+        if (event && event.clientX){
+            overlay2.style.width = `${event.clientX-rect.left}px`;
+        } 
+    });
+};
+    window.addEventListener("load", init2, { once: true });
