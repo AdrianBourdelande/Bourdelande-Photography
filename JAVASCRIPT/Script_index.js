@@ -109,7 +109,7 @@ window.addEventListener("load", function(){
         header.style.width= "70%";//se consigue esconder el header para que no se vea feo si el usuario hace scroll
         contador_elementos_obeto_JSON = Object.keys(modelos[i]).length;        
     });
-    galeria_Caterham_S3_gold.addEventListener("click",function(){
+    galeria_Caterham.addEventListener("click",function(){
         i=1;
         galeria.style.display="flex";
         foto.src = modelos[i].foto1;

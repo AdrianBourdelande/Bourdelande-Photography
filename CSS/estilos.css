@@ -51,7 +51,7 @@ nav.contenedor p > a {
   margin: 25px;
 }
 nav.contenedor p > a:hover {
-    color: rgba(155, 155, 155, 0.2);
+    color: rgba(207, 207, 207, 0.654);
     text-decoration: underline
   }
 

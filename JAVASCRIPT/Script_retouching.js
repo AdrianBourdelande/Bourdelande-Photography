@@ -28,3 +28,18 @@ const init2 = () => {
     });
 };
     window.addEventListener("load", init2, { once: true });
+
+//Bloque de codigo para la segunda imagen
+const init3 = () => {
+    const div3 = document.getElementById("edicion_03");
+    const base3 = document.getElementById("edicion_03_editada");
+    const overlay3 = document.getElementById("edicion_03_original");
+    div3.addEventListener("mousemove", function(event) {
+        const rect = div3.getBoundingClientRect();
+        overlay3.style.height = `${base3.height}px`;
+        if (event && event.clientX){
+            overlay3.style.width = `${event.clientX-rect.left}px`;
+        } 
+    });
+};
+    window.addEventListener("load", init3, { once: true });
